@@ -5,6 +5,13 @@ This simple component is used to display certain moving patterns on a 4-digit 7-
 
 I personally use it as a simple non-intrusive visual reminder indicating that some of my appliences is done and is ready to be unloaded (such as dishwasher, washing machime, drier, etc.).
 
+Please refer to the component on your yaml file:
+```yaml
+external_components:
+  - source: github://fkirill/esphome-7segment@main
+    components: [ display3461bs ]
+```
+
 Here's the example of a config that I use with the device:
 
 ```yaml
